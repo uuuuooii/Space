@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "baemin";
+    src: url("/font/BMEULJIRO.otf");
+}
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* menu-box */
+.menu-box {
+    font-family: 'SF_HambakSnow';
+    height: 500px;
+    color: white;
+    margin-top: auto;
+    padding-top: 140px;
+    padding-bottom: 315px;
+    background-image:  url("https://www.nasa.gov/sites/default/files/thumbnails/image/for_press_release.jpg");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu-box h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.menu-box-card {
+    width: 500px;
+    height: 427px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f0f5f6;
+    border-radius: 6px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.3);
+    color: #555;
+}
+.menu-box-card h2{
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.menu-box-card strong{
+    font-weight: 750;
+    color: #003866;
+}
+.menu-box-card form{
+    padding: 30px;
+}
+.name input{
+    font-family: 'SF_HambakSnow';
+    font-size: 14px;
+    width: 390px;
+    margin: 7px;
+    padding: 15px;
+    outline: none;
+}
+.form-select{
+    font-family: 'SF_HambakSnow';
+    font-size: 14px;
+    color: #555;
+    width: 425px;
+    margin: 7px;
+    padding: 15px;
+    outline: none;
+}
+.person button{
+    color: #fff;
+    background-color: #003866;
+    width: 425px;
+    margin: 7px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'SF_HambakSnow';
+    border: 0;
+}
+.person p {
+    font-family: 'SF_HambakSnow';
+    padding: 10px;
+    font-size: 12px;
+    color: #003866;
+}
+.table {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.table th {
+    width: 200px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
